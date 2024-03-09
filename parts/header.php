@@ -17,11 +17,12 @@
                 <?php
                 $pages = ['Contato' => 'contato', 'Tabela' => 'tabela'];
                 foreach ($pages as $name => $file) {
-                    echo '<li><a href="'.$homePage.'/pages/'.$file.'.php" class="menuItem">'.$name.'</a></li>';
+                    echo '<li><a href="'.$homePage.'/pages/'.$file.'" class="menuItem">'.$name.'</a></li>';
                 }
                 ?>
 
-                <li><button type="button" onclick="displaySubMenu('subMenuExer')"
+                <li>
+                    <button type="button" onclick="displaySubMenu('subMenuExer')"
                             id="btnMenuExer"
                             class="menuItem hasSubmenu"
                     >Exercícios</button>
@@ -29,7 +30,6 @@
                         <li><a href="<?= $homePage.'/exercicios/lista01/' ?>">Lista 01</a></li>
                     </ul>
                 </li>
-
             </ul>
         </nav>
     </header>
