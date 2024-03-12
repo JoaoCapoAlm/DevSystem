@@ -7,7 +7,7 @@
 <section class="my-1">
     <ul>
         <li>
-            <a href="<?= $homePage.'/exercicios/lista01' ?>">Lista 01</a>
+            <a href="<?= $homePage.'/exercicios/lista01' ?>">Lista 01 - Iniciando com PHP</a>
         </li>
     </ul>
 </section>
