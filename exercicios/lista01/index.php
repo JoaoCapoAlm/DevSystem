@@ -7,7 +7,8 @@ $exercicios = [
     4 => 'Média de nota',
     5 => 'Conversão metros para  centímetros',
     6 => 'Dobro da área do quadrado',
-    7 => 'Salário mensal'
+    7 => 'Salário mensal',
+    8 => 'Conversão de temperatura'
 ]
 ?>
 

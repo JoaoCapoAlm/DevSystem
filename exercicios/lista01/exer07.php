@@ -29,9 +29,5 @@
     } else {
         echo '<p>Atenção valor informado incorreto!</p>';
     }
-?>
-
-
-<?php endif; ?>
-
-<?php include_once "../../parts/footer.php"; ?>
+endif;
+include_once "../../parts/footer.php"; ?>
