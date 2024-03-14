@@ -5,10 +5,13 @@ $tipoSelecionado = empty($_GET['tipo']) ? 'c' : $_GET['tipo'];
 <section class="my-1">
     <div class="my-1">
         <h1>Lista 01</h1>
-        <h2>Exercício 08</h2>
+        <h2>Exercício 08 e 09</h2>
     </div>
-    <p>Faça um script que peça a temperatura em Fahrenheit e mostre a temperatura em graus Celsius</p>
+    <p><strong>Exercício 08</strong></p>
+    <p>Faça um script que peça a temperatura em graus Fahrenheit e mostre a temperatura em graus Celsius.</p>
     <p>C = (5 * (F-32)/9)</p>
+    <p><strong>Exercício 09</strong></p>
+    <p>Faça um script que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.</p>
 </section>
 
 <form method="get">

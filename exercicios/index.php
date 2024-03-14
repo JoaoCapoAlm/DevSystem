@@ -7,7 +7,7 @@
 <section class="my-1">
     <ul>
         <li>
-            <a href="<?= $homePage.'/exercicios/lista01' ?>">Lista 01 - Iniciando com PHP</a>
+            <a href="<?= $GLOBALS['homePage'].'/exercicios/lista01' ?>">Lista 01 - Iniciando com PHP</a>
         </li>
     </ul>
 </section>

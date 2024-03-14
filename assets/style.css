@@ -32,6 +32,7 @@ i {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 .menuItem {
@@ -76,4 +77,9 @@ i {
 
 #listExercicio li:not(:last-child) {
     margin-bottom: 0.5em;
+}
+
+ol {
+    margin: 1em 0;
+    padding-left: 2em;
 }

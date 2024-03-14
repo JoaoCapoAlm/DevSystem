@@ -1,4 +1,4 @@
 </main>
-<script src="<?= $homePage ?>/assets/script.js"></script>
+<script src="<?= $GLOBALS['homePage'] ?>/assets/script.js"></script>
 </body>
 </html>
