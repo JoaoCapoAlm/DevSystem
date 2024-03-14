@@ -17,7 +17,7 @@ $tipoSelecionado = empty($_GET['tipo']) ? 'c' : $_GET['tipo'];
 <form method="get">
     <div class="my-1">
         <label for="txtTemperatura">Temperatura:</label>
-        <input type="text" id="txtTemperatura" name="temperatura" required />
+        <input type="text" id="txtTemperatura" name="temperatura" required/>
     </div>
     <div class="my-1">
         <input type="radio" id="rdCelsius" name="tipo" value="c" <?= $tipoSelecionado == 'c' ? 'checked' : '' ?> />
@@ -29,21 +29,21 @@ $tipoSelecionado = empty($_GET['tipo']) ? 'c' : $_GET['tipo'];
     <button type="submit">Enviar</button>
 </form>
 
-<?php if(!empty($_GET['temperatura']) && !empty($_GET['tipo'])):
-$convertido = NAN;
-if(!is_numeric($_GET['temperatura'])):
-    echo '<p>Valor informado não é um número</p>';
-else:
-    if($_GET['tipo'] === 'c'){
-        $convertido = 5 * ($_GET['temperatura'] - 32)/9;
-    } else {
-        $convertido = 32  + ($_GET['temperatura'] * 9 / 5);
-    }
-?>
-    <section class="my-1">
-        <p>Temperatura informada: <?= $_GET['temperatura'] ?></p>
-        <p>Temperatura convertida: <?= $convertido ?> </p>
-    </section>
-<?php endif;
+<?php if (!empty($_GET['temperatura']) && !empty($_GET['tipo'])):
+    $convertido = NAN;
+    if (!is_numeric($_GET['temperatura'])):
+        echo '<p>Valor informado não é um número</p>';
+    else:
+        if ($_GET['tipo'] === 'c') {
+            $convertido = 5 * ($_GET['temperatura'] - 32) / 9;
+        } else {
+            $convertido = 32 + ($_GET['temperatura'] * 9 / 5);
+        }
+        ?>
+        <section class="my-1">
+            <p>Temperatura informada: <?= $_GET['temperatura'] ?></p>
+            <p>Temperatura convertida: <?= $convertido ?> </p>
+        </section>
+    <?php endif;
 endif;
 include_once "../../parts/footer.php"; ?>

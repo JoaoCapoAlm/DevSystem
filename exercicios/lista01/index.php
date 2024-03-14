@@ -17,12 +17,12 @@ $exercicios = [
 
 <section class="my-1">
     <ul id="listExercicio">
-        <?php foreach($exercicios as $numero => $nome): ?>
-        <li>
-            <a href="./exer<?= sprintf("%02d", $numero) ?>">
-                <?= sprintf("%02d", $numero).' - '.$nome ?>
-            </a>
-        </li>
+        <?php foreach ($exercicios as $numero => $nome): ?>
+            <li>
+                <a href="./exer<?= sprintf("%02d", $numero) ?>">
+                    <?= sprintf("%02d", $numero) . ' - ' . $nome ?>
+                </a>
+            </li>
         <?php endforeach; ?>
     </ul>
 </section>

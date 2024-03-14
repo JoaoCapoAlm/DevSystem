@@ -16,34 +16,36 @@
 <form method="get">
     <div class="my-1">
         <label for="txtPrimeiro">Primeiro valor:</label>
-        <input type="text" id="txtPrimeiro" name="primeiro" required />
+        <input type="text" id="txtPrimeiro" name="primeiro" required/>
     </div>
     <div class="my-1">
         <label for="txtSegundo">Segundo valor:</label>
-        <input type="text" id="txtSegundo" name="segundo" required />
+        <input type="text" id="txtSegundo" name="segundo" required/>
     </div>
     <div class="my-1">
         <label for="txtTerceiro">Terceiro valor:</label>
-        <input type="text" id="txtTerceiro" name="terceiro" required />
+        <input type="text" id="txtTerceiro" name="terceiro" required/>
     </div>
     <button type="submit">Enviar</button>
 </form>
 <section class="my-1">
     <p><strong>Resposta</strong></p>
-<?php
-if(!empty($_GET['primeiro']) && !empty($_GET['segundo']) && !empty($_GET['terceiro'])):
-    if(!is_numeric($_GET['primeiro'])):
-        echo '<p>Primeiro valor informado inválido!</p>';
-    elseif(!is_numeric($_GET['segundo'])):
-        echo '<p>Segundo valor informado inválido!</p>';
-    elseif(!is_numeric($_GET['terceiro'])):
-        echo '<p>Terceiro valor informado inválido!</p';
-    else:
-        echo '<p><strong>Item a:</strong> ' . (($_GET['primeiro'] ** 2) + ($_GET['segundo'] / 2)) .'</p>';
-        echo '<p><strong>Item b:</strong> ' . (($_GET['primeiro'] * 3) + $_GET['terceiro']);
-        echo '<p><strong>Item c:</strong> ' . ($_GET['terceiro'] ** 3);
+    <?php
+    if (!empty($_GET['primeiro']) && !empty($_GET['segundo']) && !empty($_GET['terceiro'])):
+        if (!is_numeric($_GET['primeiro'])):
+            echo '<p>Primeiro valor informado inválido!</p>';
+        elseif (!is_numeric($_GET['segundo'])):
+            echo '<p>Segundo valor informado inválido!</p>';
+        elseif (!is_numeric($_GET['terceiro'])):
+            echo '<p>Terceiro valor informado inválido!</p';
+        else:
+            ?>
+            <p><strong>Item a:</strong> <?= (($_GET['primeiro'] ** 2) + ($_GET['segundo'] / 2)) ?> </p>
+            <p><strong>Item b:</strong> <?= (($_GET['primeiro'] * 3) + $_GET['terceiro']); ?></p>
+            <p><strong>Item c:</strong> <?= ($_GET['terceiro'] ** 3); ?></p>
+        <?php
+        endif;
     endif;
-endif;
-?>
+    ?>
 </section>
-<?php  include_once "../../parts/footer.php"; ?>
+<?php include_once "../../parts/footer.php"; ?>

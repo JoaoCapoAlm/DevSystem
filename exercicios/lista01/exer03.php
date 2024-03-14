@@ -10,15 +10,15 @@
 
 <form method="get">
     <label for="txtNumeroUm">Digite o primeiro número</label>
-    <input type="number" id="txtNumeroUm" name="numUm" />
+    <input type="number" id="txtNumeroUm" name="numUm"/>
     <br>
     <label for="txtNumeroDois">Digite o segundo número</label>
-    <input type="number" id="txtNumeroDois" name="numDois" />
+    <input type="number" id="txtNumeroDois" name="numDois"/>
     <br>
     <button type="submit">Enviar</button>
 </form>
 
-<?php if(!empty($_GET['numUm']) && !empty($_GET['numDois'])): ?>
+<?php if (!empty($_GET['numUm']) && !empty($_GET['numDois'])): ?>
     <p><?= $_GET['numUm'] + $_GET['numDois'] ?></p>
 <?php endif; ?>
 

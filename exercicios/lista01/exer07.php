@@ -12,20 +12,20 @@
 <form method="post">
     <div class="my-1">
         <label for="txtValorHora">Valor/Hora:</label>
-        <input type="text" id="txtValorHora" name="valorHora" required />
+        <input type="text" id="txtValorHora" name="valorHora" required/>
     </div>
     <div class="my-1">
         <label for="txtHorasTrabalhadas">Horas trabalhadas:</label>
-        <input type="number" id="txtHorasTrabalhadas" name="horasTrabalhadas" required />
+        <input type="number" id="txtHorasTrabalhadas" name="horasTrabalhadas" required/>
     </div>
     <button type="submit">Enviar</button>
 </form>
-<?php if(!empty($_POST['valorHora']) && !empty($_POST['horasTrabalhadas'])):
+<?php if (!empty($_POST['valorHora']) && !empty($_POST['horasTrabalhadas'])):
     $valorHora = $_POST['valorHora'];
     $horasTrabalhadas = $_POST['horasTrabalhadas'];
-    if(is_numeric($valorHora) && is_numeric($horasTrabalhadas)){
+    if (is_numeric($valorHora) && is_numeric($horasTrabalhadas)) {
         $salario = number_format($valorHora * $horasTrabalhadas, 2);
-        echo '<p><strong>Salário mensal:</strong> ' . $salario .'</p>';
+        echo '<p><strong>Salário mensal:</strong> ' . $salario . '</p>';
     } else {
         echo '<p>Atenção valor informado incorreto!</p>';
     }

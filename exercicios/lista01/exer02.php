@@ -12,15 +12,15 @@
 
 <form method="get">
     <label for="txtRaio">Digite o raio</label>
-    <input type="number" id="txtRaio" name="raio" />
+    <input type="number" id="txtRaio" name="raio"/>
 
     <button type="submit">Enviar</button>
 </form>
 
-<?php if(!empty($_GET['raio']) && is_numeric($_GET['raio'])): ?>
+<?php if (!empty($_GET['raio']) && is_numeric($_GET['raio'])): ?>
     <p><strong>Raio informado:</strong> <?= $_GET['raio'] ?></p>
     <p><strong>Perímetro:</strong> <?= 2 * M_PI * $_GET['raio'] ?> </p>
-    <p><strong>Área do círculo:</strong> <?= M_PI * ($_GET['raio'] * $_GET['raio'])  ?></p>
+    <p><strong>Área do círculo:</strong> <?= M_PI * ($_GET['raio'] * $_GET['raio']) ?></p>
 <?php endif; ?>
 
 <?php include_once "../../parts/footer.php"; ?>

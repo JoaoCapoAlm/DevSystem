@@ -10,15 +10,15 @@
 
 <form method="get">
     <label for="txtLado">Informe o comprimento da lateral do quadrado</label>
-    <input type="number" id="txtLado" name="lado" />
+    <input type="number" id="txtLado" name="lado"/>
     <br>
     <button type="submit">Enviar</button>
 </form>
-<?php if(!empty($_GET['lado'])):
-        $lado = $_GET['lado'];
-        $area = $lado * $lado;
+<?php if (!empty($_GET['lado'])):
+    $lado = $_GET['lado'];
+    $area = $lado * $lado;
     ?>
-        <br>
+    <br>
     <section>
         <p><strong>Valor informado:</strong> <?= $lado; ?></p>
         <p><strong>Valor da área:</strong> <?= $area; ?></p>
