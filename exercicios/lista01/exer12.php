@@ -21,7 +21,7 @@
 </form>
 <section class="my-1">
     <h3><strong>Resposta</strong></h3>
-    <?php if(!empty($_GET['primeiroNumero']) && !empty($_GET['segundoNumero'])): ?>
+    <?php if(!isset($_GET['primeiroNumero']) && !empty($_GET['segundoNumero'])): ?>
         <?php if(is_numeric($_GET['primeiroNumero']) && is_numeric($_GET['segundoNumero'])){
             $calculo = ($_GET['primeiroNumero'] + $_GET['segundoNumero']) * $_GET['primeiroNumero'];
         ?>

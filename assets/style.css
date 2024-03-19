@@ -6,7 +6,11 @@ h2 {
     font-size: 1.5em;
 }
 
-h1, h2, strong {
+h3 {
+    font-size: 1.25em;
+}
+
+h1, h2, h3, strong {
     font-weight: bold;
 }
 

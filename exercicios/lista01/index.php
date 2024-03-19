@@ -11,7 +11,8 @@ $exercicios = [
     8 => '(Exer 8 e 9) Conversão de temperatura',
     10 => 'Números inteiros e reais',
     11 => 'Peso ideal',
-    12 => '(A * B) + A'
+    12 => '(A * B) + A',
+    13 => 'Média'
 ]
 ?>
 
