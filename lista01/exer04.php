@@ -1,12 +1,14 @@
-<?php include_once "../../parts/header.php"; ?>
+<?php include_once "../parts/header.php"; ?>
 
-<h1>Lista 01</h1>
-<h2>Exercício 04</h2>
-<br>
-<section>
+<section class="my-1">
+    <h1>Lista 01</h1>
+    <h2>Exercício 04</h2>
     <p>Faça um script que peça 3 notas de um aluno e mostre sua nota</p>
 </section>
-<br><br>
+<hr />
+<br />
+
+<h3>Resolução</h3>
 
 <form method="get">
     <label for="txtNotaUm">Digite a primeira nota</label>
@@ -33,4 +35,4 @@
     </section>
 <?php endif; ?>
 
-<?php include_once "../../parts/footer.php"; ?>
+<?php include_once "../parts/footer.php"; ?>

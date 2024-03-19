@@ -1,4 +1,4 @@
-<?php include_once "../../parts/header.php";
+<?php include_once "../parts/header.php";
 $tipoSelecionado = empty($_GET['tipo']) ? 'c' : $_GET['tipo'];
 ?>
 
@@ -10,9 +10,11 @@ $tipoSelecionado = empty($_GET['tipo']) ? 'c' : $_GET['tipo'];
     <p><strong>Exercício 08</strong></p>
     <p>Faça um script que peça a temperatura em graus Fahrenheit e mostre a temperatura em graus Celsius.</p>
     <p>C = (5 * (F-32)/9)</p>
+    <br>
     <p><strong>Exercício 09</strong></p>
     <p>Faça um script que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.</p>
 </section>
+<hr><br>
 
 <form method="get">
     <div class="my-1">
@@ -46,4 +48,4 @@ $tipoSelecionado = empty($_GET['tipo']) ? 'c' : $_GET['tipo'];
         </section>
     <?php endif;
 endif;
-include_once "../../parts/footer.php"; ?>
+include_once "../parts/footer.php"; ?>

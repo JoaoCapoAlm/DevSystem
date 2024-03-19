@@ -1,4 +1,4 @@
-<?php include_once "../../parts/header.php";
+<?php include_once "../parts/header.php";
 
 $exercicios = [
     1 => 'GET número',
@@ -12,7 +12,8 @@ $exercicios = [
     10 => 'Números inteiros e reais',
     11 => 'Peso ideal',
     12 => '(A * B) + A',
-    13 => 'Média'
+    13 => 'Média',
+    14 => '15% do valor'
 ]
 ?>
 
@@ -30,4 +31,4 @@ $exercicios = [
     </ul>
 </section>
 
-<?php include_once "../../parts/footer.php"; ?>
+<?php include_once "../parts/footer.php"; ?>

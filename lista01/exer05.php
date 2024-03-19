@@ -1,12 +1,13 @@
-<?php include_once "../../parts/header.php"; ?>
+<?php include_once "../parts/header.php"; ?>
 
-<h1>Lista 01</h1>
-<h2>Exercício 05</h2>
-<br>
-<section>
+<section class="my-1">
+    <div class="my-1">
+        <h1>Lista 01</h1>
+        <h2>Exercício 05</h2>
+    </div>
     <p>Faça um script que converta metros para centímetros</p>
 </section>
-<br><br>
+<hr><br>
 
 <form method="get">
     <label for="txtMetros">Digite a distância em metros</label>
@@ -22,4 +23,4 @@
     </section>
 <?php endif; ?>
 
-<?php include_once "../../parts/footer.php"; ?>
+<?php include_once "../parts/footer.php"; ?>

@@ -1,4 +1,4 @@
-<?php include_once "../../parts/header.php"; ?>
+<?php include_once "../parts/header.php"; ?>
 
 <section class="my-1">
     <div class="my-1">
@@ -31,4 +31,4 @@
         }
     endif; ?>
 </section>
-<?php include_once "../../parts/footer.php"; ?>
+<?php include_once "../parts/footer.php"; ?>

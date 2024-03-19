@@ -1,4 +1,4 @@
-<?php include_once "../../parts/header.php"; ?>
+<?php include_once "../parts/header.php"; ?>
 
 <section class="my-1">
     <div class="my-1">
@@ -8,6 +8,8 @@
     <p>Faça um script que pergunte quando você ganha por hora e o número de horas trabalhadas no mês.</p>
     <p>Calcule e mostre o total de seu salário no referido mês.</p>
 </section>
+<hr>
+<br>
 
 <form method="post">
     <div class="my-1">
@@ -30,4 +32,4 @@
         echo '<p>Atenção valor informado incorreto!</p>';
     }
 endif;
-include_once "../../parts/footer.php"; ?>
+include_once "../parts/footer.php"; ?>

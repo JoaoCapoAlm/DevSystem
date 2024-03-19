@@ -13,23 +13,7 @@
     <nav id="headerMenu">
         <ul>
             <li><a href="<?= $GLOBALS['homePage'] ?>" class="menuItem">Página Inicial</a></li>
-
-            <?php
-            $pages = ['Contato' => 'contato', 'Tabela' => 'tabela'];
-            foreach ($pages as $name => $file) {
-                echo '<li><a href="' . $GLOBALS['homePage'] . '/pages/' . $file . '" class="menuItem">' . $name . '</a></li>';
-            }
-            ?>
-
-            <li>
-                <button type="button" onclick="displaySubMenu('subMenuExer')"
-                        id="btnMenuExer"
-                        class="menuItem hasSubmenu"
-                >Exercícios</button>
-                <ul id="subMenuExer" class="hide">
-                    <li><a href="<?= $GLOBALS['homePage'] . '/exercicios/lista01/' ?>">Lista 01</a></li>
-                </ul>
-            </li>
+            <li><a href="<?= $GLOBALS['homePage'] . '/lista01/' ?>">Lista 01</a></li>
         </ul>
     </nav>
 </header>

@@ -1,12 +1,14 @@
-<?php include_once "../../parts/header.php"; ?>
+<?php include_once "../parts/header.php"; ?>
 
-<h1>Lista 01</h1>
-<h2>Exercício 06</h2>
-<br>
 <section>
+    <div class="my-1">
+        <h1>Lista 01</h1>
+        <h2>Exercício 06</h2>
+    </div>
     <p>Faça um script que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário</p>
 </section>
-<br><br>
+<hr>
+<br>
 
 <form method="get">
     <label for="txtLado">Informe o comprimento da lateral do quadrado</label>
@@ -26,4 +28,4 @@
     </section>
 <?php endif; ?>
 
-<?php include_once "../../parts/footer.php"; ?>
+<?php include_once "../parts/footer.php"; ?>

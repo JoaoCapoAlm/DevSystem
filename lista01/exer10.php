@@ -1,4 +1,4 @@
-<?php include_once "../../parts/header.php"; ?>
+<?php include_once "../parts/header.php"; ?>
 
 <section class="my-1">
     <div class="my-1">
@@ -12,6 +12,7 @@
         <li>O terceiro elevado ao cubo.</li>
     </ol>
 </section>
+<hr><br>
 
 <form method="get">
     <div class="my-1">
@@ -29,7 +30,6 @@
     <button type="submit">Enviar</button>
 </form>
 <section class="my-1">
-    <p><strong>Resposta</strong></p>
     <?php
     if (!empty($_GET['primeiro']) && !empty($_GET['segundo']) && !empty($_GET['terceiro'])):
         if (!is_numeric($_GET['primeiro'])):
@@ -48,4 +48,4 @@
     endif;
     ?>
 </section>
-<?php include_once "../../parts/footer.php"; ?>
+<?php include_once "../parts/footer.php"; ?>

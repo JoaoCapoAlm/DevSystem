@@ -1,4 +1,4 @@
-<?php include_once "../../parts/header.php"; ?>
+<?php include_once "../parts/header.php"; ?>
 
 <h1>Lista 01</h1>
 <h2>Exercício 03</h2>
@@ -6,7 +6,8 @@
 <section>
     <p>Faça um script que peça dois números e imprima a soma</p>
 </section>
-<br><br>
+<hr>
+<br>
 
 <form method="get">
     <label for="txtNumeroUm">Digite o primeiro número</label>

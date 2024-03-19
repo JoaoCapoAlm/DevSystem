@@ -1,4 +1,4 @@
-<?php include_once "../../parts/header.php"; ?>
+<?php include_once "../parts/header.php"; ?>
 
 <section class="my-1">
     <div class="my-1">
@@ -8,7 +8,7 @@
     <p>Escreva um algoritmo que leia três números nas variáveis Val1, Val2 e Val3, calcule sua média na variável media
         e exiba para o usuário o resultado.</p>
 </section>
-<hr>
+<hr><br>
 <form method="get">
     <div class="my-1">
         <label for="txtPrimeiroNumero">Primeiro número:</label>
@@ -40,4 +40,4 @@
         }
     endif; ?>
 </section>
-<?php include_once "../../parts/footer.php";
+<?php include_once "../parts/footer.php";

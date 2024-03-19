@@ -1,4 +1,4 @@
-<?php include_once "../../parts/header.php"; ?>
+<?php include_once "../parts/header.php"; ?>
 
 <section class="my-1">
     <div class="my-1">
@@ -12,7 +12,7 @@
         <li>Para mulheres: (62.1 * altura) - 44.7</li>
     </ol>
 </section>
-<hr>
+<hr> <br>
 <form method="get">
     <div class="my-1">
         <input type="radio" id="txtMasculino" name="sexo" value="m" checked />
@@ -50,4 +50,4 @@
         }
     endif; ?>
 </section>
-<?php include_once "../../parts/footer.php"; ?>
+<?php include_once "../parts/footer.php"; ?>
