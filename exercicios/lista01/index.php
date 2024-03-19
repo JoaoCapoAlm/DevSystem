@@ -10,7 +10,8 @@ $exercicios = [
     7 => 'Salário mensal',
     8 => '(Exer 8 e 9) Conversão de temperatura',
     10 => 'Números inteiros e reais',
-    11 => 'Peso ideal'
+    11 => 'Peso ideal',
+    12 => '(A * B) + A'
 ]
 ?>
 

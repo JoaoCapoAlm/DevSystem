@@ -22,9 +22,6 @@
         <label for="txtFeminino">Feminino</label>
     </div>
     <div class="my-1">
-
-    </div>
-    <div class="my-1">
         <label for="txtAltura">Digite sua altura:</label>
         <input type="text" id="txtAltura" name="altura" required/>
     </div>
