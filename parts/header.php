@@ -13,7 +13,9 @@
     <nav id="headerMenu">
         <ul>
             <li><a href="<?= $GLOBALS['homePage'] ?>" class="menuItem">Página Inicial</a></li>
-            <li><a href="<?= $GLOBALS['homePage'] . '/lista01/' ?>">Lista 01</a></li>
+            <li><a href="<?= $GLOBALS['homePage'] . '/lista01/' ?>" class="menuItem">Lista 01</a></li>
+            <li><a href="<?= $GLOBALS['homePage'] . '/lista02/' ?>" class="menuItem">Lista 02</a></li>
+            <li><a href="<?= $GLOBALS['homePage'] . '/lista03/' ?>" class="menuItem">Lista 03</a></li>
         </ul>
     </nav>
 </header>
