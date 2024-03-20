@@ -3,9 +3,10 @@
 <section class="my-1">
     <div class="my-1">
         <h1>Lista 01</h1>
-        <h2>Exercício 19</h2>
+        <h2>Exercício 20</h2>
     </div>
-    <p>Escreva um algoritmo que receba um valor, calcule e mostre um desconto de 9%.</p>
+    <p>Escreva um algoritmo que receba o valor de um produto e calcule um desconto de 7%, exibindo para o usuário o
+        valor original, o valor do desconto e o valor com o desconto.</p>
 </section>
 <hr><br>
 <form method="get">
@@ -23,8 +24,8 @@
         if(is_numeric($valor)){
     ?>
             <p>Valor inicial: <?= $valor ?></p>
-            <p>Desconto: 9%</p>
-            <p>Valor com  o desconto: <?= $valor * 0.91 ?></p>
+            <p>Desconto: 7%</p>
+            <p>Valor com  o desconto: <?= $valor * 0.93 ?></p>
         <?php } else {
             echo '<p>Valor informado não é um número válido!</p>';
         }
