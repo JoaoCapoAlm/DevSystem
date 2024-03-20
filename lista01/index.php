@@ -13,11 +13,12 @@ $exercicios = [
     11 => 'Peso ideal',
     12 => '(A * B) + A',
     13 => 'Média',
-    14 => '15% do valor'
+    14 => '15% do valor',
+    15 => '5% e 50% do valor'
 ]
 ?>
 
-<h1>Lista 01</h1>
+<h1>Lista 01 - Iniciando com PHP</h1>
 
 <section class="my-1">
     <ul id="listExercicio">
