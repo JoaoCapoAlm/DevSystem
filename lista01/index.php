@@ -14,7 +14,8 @@ $exercicios = [
     12 => '(A * B) + A',
     13 => 'Média',
     14 => '15% do valor',
-    15 => '5% e 50% do valor'
+    15 => '5% e 50% do valor',
+    16 => 'Soma de quadrados'
 ]
 ?>
 
