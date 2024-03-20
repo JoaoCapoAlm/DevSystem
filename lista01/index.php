@@ -17,7 +17,8 @@ $exercicios = [
     15 => '5% e 50% do valor',
     16 => 'Soma de quadrados',
     17 => 'Conversão m/s para km/h',
-    18 => 'IMC'
+    18 => 'IMC',
+    19 => 'Desconto de 9%'
 ]
 ?>
 
