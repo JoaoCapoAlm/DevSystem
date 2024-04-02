@@ -23,7 +23,8 @@ $exercicios = [
     21 => 'Cálculo de volume',
     22 => 'Desconto de 27%',
     23 => 'Área do trapézio',
-    24 => 'Média ponderada'
+    24 => 'Média ponderada',
+    25 => 'Valor parcelado'
 ]
 ?>
 
