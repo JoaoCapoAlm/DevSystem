@@ -2,7 +2,7 @@
 
 $exercicios = [
     1 => 'Mostrar elementos do array',
-    2 => '',
+    2 => 'Mostrar elementos do array em ordem reversa',
     3 => '',
     4 => '',
     5 => '',

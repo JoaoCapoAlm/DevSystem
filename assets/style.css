@@ -23,6 +23,10 @@ i {
     margin-bottom: 1em;
 }
 
+.mb-1 {
+    margin-bottom: 1em;
+}
+
 #headerMenu {
     max-width: 100%;
     background-color: yellow;
