@@ -19,7 +19,9 @@ $exercicios = [
     17 => 'Conversão m/s para km/h',
     18 => 'IMC',
     19 => 'Desconto de 9%',
-    20 => 'Desconto de 7%'
+    20 => 'Desconto de 7%',
+    21 => 'Cálculo de volume',
+    22 => 'Desconto de 27%'
 ]
 ?>
 
