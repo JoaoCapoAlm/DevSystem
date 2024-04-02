@@ -21,7 +21,8 @@ $exercicios = [
     19 => 'Desconto de 9%',
     20 => 'Desconto de 7%',
     21 => 'Cálculo de volume',
-    22 => 'Desconto de 27%'
+    22 => 'Desconto de 27%',
+    23 => 'Área do trapézio'
 ]
 ?>
 
