@@ -24,7 +24,8 @@ $exercicios = [
     22 => 'Desconto de 27%',
     23 => 'Área do trapézio',
     24 => 'Média ponderada',
-    25 => 'Valor parcelado'
+    25 => 'Valor parcelado',
+    26 => 'Consumo médio'
 ]
 ?>
 
