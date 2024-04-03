@@ -1,7 +1,7 @@
 <?php include_once "../parts/header.php"; ?>
 
 <h1>Lista 04</h1>
-<h2>Exercício 01</h2>
+<h2>Exercício 02</h2>
 <br>
 <section>
     <h3 class="my-1">Enunciado</h3>
