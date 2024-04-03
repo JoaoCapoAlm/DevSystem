@@ -16,6 +16,7 @@
             <li><a href="<?= $GLOBALS['homePage'] . '/lista01/' ?>" class="menuItem">Lista 01</a></li>
             <li><a href="<?= $GLOBALS['homePage'] . '/lista02/' ?>" class="menuItem">Lista 02</a></li>
             <li><a href="<?= $GLOBALS['homePage'] . '/lista03/' ?>" class="menuItem">Lista 03</a></li>
+            <li><a href="<?= $GLOBALS['homePage'] . '/lista04/' ?>" class="menuItem">Lista 04</a></li>
         </ul>
     </nav>
 </header>
